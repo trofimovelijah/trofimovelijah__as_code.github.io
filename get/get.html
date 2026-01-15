@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="Asciidoctor 2.0.26">
-<title>Получение списка созданных задач (GET)</title>
+<title>Получение задачи (GET)</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
 /*! Asciidoctor default stylesheet | MIT License | https://asciidoctor.org */
@@ -436,13 +436,13 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </head>
 <body class="article">
 <div id="header">
-<h1>Получение списка созданных задач (GET)</h1>
+<h1>Получение задачи (GET)</h1>
 </div>
 <div id="content">
 <div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
-<p>Метод получения списка созданных задач.</p>
+<p>Метод получения задачи.</p>
 </div>
 </div>
 </div>
@@ -450,28 +450,10 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <h2 id="_входные_параметры">Входные параметры</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Входные параметры отсутствуют.</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_выходные_параметры">Выходные параметры</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>Выходные параметры:</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p>в случае успеха вернуть список задач с параметрами, указанными в таблице;</p>
-</li>
-<li>
-<p>иначе вернуть описание ошибки.</p>
-</li>
-</ul>
+<p>Входные параметры приведены в таблице ниже.</p>
 </div>
 <table class="tableblock frame-all grid-all stretch">
-<caption class="title">Table 1. Параметры задач</caption>
+<caption class="title">Table 1. Входные параметры</caption>
 <colgroup>
 <col style="width: 20%;">
 <col style="width: 20%;">
@@ -496,6 +478,45 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <td class="tableblock halign-left valign-top"><p class="tableblock">true</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Идентификатор задачи</p></td>
 </tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_выходные_параметры">Выходные параметры</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Выходные параметры:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>в случае успеха вернуть параметры задачи, указанные в таблице;</p>
+</li>
+<li>
+<p>иначе вернуть описание ошибки.</p>
+</li>
+</ul>
+</div>
+<table class="tableblock frame-all grid-all stretch">
+<caption class="title">Table 2. Параметры задач</caption>
+<colgroup>
+<col style="width: 20%;">
+<col style="width: 20%;">
+<col style="width: 20%;">
+<col style="width: 20%;">
+<col style="width: 20%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top"><strong>Параметр</strong></th>
+<th class="tableblock halign-left valign-top"><strong>Ключ</strong></th>
+<th class="tableblock halign-left valign-top"><strong>Тип</strong></th>
+<th class="tableblock halign-left valign-top"><strong>Не пустой</strong></th>
+<th class="tableblock halign-left valign-top"><strong>Описание</strong></th>
+</tr>
+</thead>
+<tbody>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Заголовок задачи</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">title</p></td>
@@ -527,7 +548,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="paragraph">
 <p>Алгоритм работы метода приведён на диаграмме.</p>
 </div>
-<div class="imageblock"><div class="content"><img class="plantuml" src="https://www.plantuml.com/plantuml/png/~1U9mTZJiEG50KHFkx2klm6bkHqFd5f-SfD2eRi0K58GHRcDcHwtKdapCpGLM7PTsaYOWZ4Hyp7bpiEU2WvUYnmwlOQNnwsB5WnSB1_Ew4ZIrkjPtPOiFENkiZhKhM_Bjv8HB4MQGt7y2WFau0" /></div></div>
+<div class="imageblock"><div class="content"><img class="plantuml" src="https://www.plantuml.com/plantuml/png/~1U9npA2v9B2efpStXuWApkBYiBio_iE_2xelD5zilxBZOTB57uSB-2nikDbpOS67FXQr0WOQBtGeNjWEvMu32G3NM83sJW58D5_O2TO5q09bRBso_s0mqfkTY4r1PapN8_Fm2BYw7rBmKe7K06FL3z000" /></div></div>
 <div class="paragraph">
 <p><a href="../index.html">Назад</a></p>
 </div>

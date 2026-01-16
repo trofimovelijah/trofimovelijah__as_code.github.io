@@ -4,4 +4,4 @@
 
 Репозиторий содержит рабочие процессы автоматизации и исходные тексты документов в структурированном виде, позволяя команде работать над документацией как над кодом — с полной историей изменений, код-ревью и отслеживанием версий.
 
-Посмотреть готовый результат можно здесь: [**https://trofimovelijah__as_code.github.io**](https://trofimovelijah__as_code.github.io)
+Посмотреть готовый результат можно здесь: [https://trofimovelijah.github.io/trofimovelijah__as_code.github.io/](https://trofimovelijah.github.io/trofimovelijah__as_code.github.io/)
